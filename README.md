@@ -13,6 +13,7 @@ Prompt2Site is an AI-powered tool that generates complete front-end websites (HT
 * 📦 **Download Projects** – Instantly download a ZIP file with all project files.
 * 🎨 **Modern UI** – Glassmorphic design with responsive layout, animations, and an intuitive interface.
 
+
 ---
 
 ## 🔧 Tech Stack
@@ -112,12 +113,22 @@ Live Deployments:
 * Backend API: [https://prompt2site-1.onrender.com](https://prompt2site-1.onrender.com)
 
 ---
+## Preview
+![Screenshot from 2025-06-22 17-41-54](https://github.com/user-attachments/assets/2929dbe6-d355-4aa2-8bc8-32463d0a68ae)
+![Screenshot from 2025-06-22 17-42-12](https://github.com/user-attachments/assets/6a6f0a7c-63be-4d9e-935b-2604ba3900e0)
+
+
+https://github.com/user-attachments/assets/207eb358-b6e3-43c7-8ee0-81cb6c3f4259
+
+
+
+---
 
 ## 🧠 Credits & Acknowledgments
 
 * 🔍 **OpenRouter / OpenAI API** – For converting text prompts into working front-end code.
 * 🧑‍🎓 **Firebase** – For secure authentication and user identity management.
-* 💡 **AI Assistant ( )** – Helped refine CSS styling, error handling logicogicogicogicogic
+* 💡 **AI Assistant ( )** – Helped refine CSS styling, error handling logic.
 
 ---
 
