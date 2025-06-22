@@ -117,7 +117,7 @@ Live Deployments:
 
 * 🔍 **OpenRouter / OpenAI API** – For converting text prompts into working front-end code.
 * 🧑‍🎓 **Firebase** – For secure authentication and user identity management.
-* 💡 **AI Assistant ( )** – Helped improve CSS styling, error handling logicogicogicogicogic
+* 💡 **AI Assistant ( )** – Helped refine CSS styling, error handling logicogicogicogicogic
 
 ---
 
