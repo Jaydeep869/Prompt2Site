@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt2Site</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/11.9.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.9.1/firebase-auth-compat.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+      <div class="mobile-overlay"></div>
+      <div class="navbar">
+    <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <h1>Prompt2Site</h1>
+    <div class="navbar-buttons">
+        <div class="user-info hide">
+            <img src="user-avatar.jpg" class="user-avatar" alt="User">
+            <span class="user-name"></span>
+        </div>
+        <button id="google-login" class="loginbtn">Login with Google</button>
+        <button id="anon-login" style="display: none;">Continue as Guest</button>
+        <button id="logout">Logout</button>
+        <p id="status" class="status"></p>
+    </div>
+</div>
+      <div class="container">
+        <div class="leftcontainer leftcontainerhide">
+          <div class="leftone">
+            <h2>History</h2>
+          </div>
+          <div class="projecthistory"></div>
+        </div>
+        <div class="rightcontainer">
+          <div class="outputmain">
+            <div class="secondnavbar">
+              <button class="codebtn">
+                <img src="./public/images/code.png" alt="code" />
+              </button>
+              <button class="viewbtn">
+                <img src="./public/images/visual.png" alt="view" />
+              </button>
+              <button class="downloadbtn">
+                <img src="./public/images/download.png" alt="download" />
+              </button>
+              <button class="savebtn hide">
+                <img src="./public/images/save.png" alt="save" />
+              </button>
+            </div>
+            <div class="outputplace" id="output">
+              <div class="view">
+                <iframe
+                  class="ifm hide"
+                  id="live-preview"
+                  sandbox="allow-scripts allow-same-origin"
+                  style="width: 100%; height: 67vh"
+                ></iframe>
+                <div class="h3m">
+                  <h3>Give a prompt to get the website ready</h3>
+                </div>
+              </div>
+
+              <div class="code hide">
+                <div class="codenavbar">
+                  <button>File</button>
+                  <button>View</button>
+                  <button>Run</button>
+                </div>
+                <div class="incode">
+                  <div class="leftcode">
+                    <h3 class="incode1">index.html</h3>
+                    <h3 class="incode2">style.css</h3>
+                    <h3 class="incode3">script.js</h3>
+                  </div>
+                  <div class="rightcode">
+                    <pre class="html-code"></pre>
+                    <pre class="css-code hide"></pre>
+                    <pre class="js-code hide"></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="inputtext">
+            <textarea
+              id="prompt"
+              placeholder="Describe the website you want..."
+            ></textarea>
+            <button class="generatebtn">Generate</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/firebase-auth.js"></script>
+  </body>
+</html>
