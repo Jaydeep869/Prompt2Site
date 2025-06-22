@@ -89,7 +89,7 @@ body.sidebar-open {
 @media (min-width: 768px) {
     .rightcontainer {
         width: 74vw;
-        height: 92vh;
+        height: 93vh;
     }
 }
 
@@ -115,7 +115,7 @@ textarea {
 @media (min-width: 768px) {
     textarea {
         margin-left: 14.6vw;
-        position: fixed;
+        
         bottom: 2vh;
     }
 }
@@ -166,12 +166,12 @@ textarea {
     transition: 0.3s;
     display: block;
     margin: 0 auto 1rem;
+    bottom: 9vh;
 }
 
 @media (min-width: 1200px) {
     .generatebtn {
-        position: fixed;
-        bottom: 3vh;
+        bottom: 9vh;
         margin-left: 52vw;
         height: 40px;
         width: 120px;
@@ -179,8 +179,7 @@ textarea {
 }
 @media (max-width: 1200px) {
     .generatebtn {
-        position: fixed;
-        bottom: 3vh;
+        bottom: 9vh;
         margin-left: 46vw;
         height: 40px;
         width: 120px;
@@ -694,7 +693,7 @@ h1 {
 
 @media (max-width: 767px) {
     .container {
-        height: 92vh;
+        height: 93vh;
     }
     
     .leftcontainer {
@@ -759,4 +758,31 @@ h1 {
     animation: spin 1s linear infinite;
     margin: 0 auto;
     display: none;
+}
+.site-footer {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.site-footer a {
+  color: #00ffe5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
 }
