@@ -124,6 +124,16 @@ https://github.com/user-attachments/assets/207eb358-b6e3-43c7-8ee0-81cb6c3f4259
 
 ---
 
+## Future Enhancement
+
+1. solving bugs and improving styling in future.
+2. add multiple frameworks and language.
+3. a payment gateway for freemium basis.
+4. can be converted to SAAS.
+
+
+---
+
 ## 🧠 Credits & Acknowledgments
 
 * 🔍 **OpenRouter / OpenAI API** – For converting text prompts into working front-end code.
